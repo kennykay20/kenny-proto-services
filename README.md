@@ -7,9 +7,9 @@
 
 Set up test for protobuf
 
-# Publish to Github Package
+# Publish to NPM Package
 
-To be able to publish new changes to github packages. Pls take the following steps:
+To be able to publish new changes to npm packages. Pls take the following steps:
 
 - run `npm publish` to publish your changes.
 

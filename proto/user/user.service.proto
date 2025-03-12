@@ -6,11 +6,10 @@ import "user/user.proto";
 import "google/api/annotations.proto";
 
 service UserService {
-  
   rpc CreateNewUser(user.CreateUser) returns (user.User) {
     option (google.api.http) = {
       post: "/v1/user"
       body: "*"
     };
   };
-} 
+}
