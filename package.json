@@ -1,0 +1,21 @@
+{
+  "name": "proto-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Kehinde Kayode",
+  "license": "ISC",
+  "scripts": {
+    "gen-proto": "./protoc.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "google-proto-files": "^4.2.0",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "grpc-tools": "^1.13.0",
+    "protobufjs": "^7.4.0"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
