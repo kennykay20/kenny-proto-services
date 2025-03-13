@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package user;
 
-import "user.proto";
+import "user/user.proto";
 import "google/api/annotations.proto";
 
 service UserService {

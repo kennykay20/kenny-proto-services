@@ -7,7 +7,7 @@ message LoginUser {
   string password = 2;
 }
 
-message User {
+message UserData {
   string id = 1;
   string full_name = 2;
   string email = 3;
