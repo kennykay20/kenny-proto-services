@@ -2,3 +2,14 @@ syntax = "proto3";
 
 package auth;
 
+import "auth.proto";
+import "google/api/annotations.proto";
+
+service AuthService {
+  rpc LoginUser(auth.LoginUser) returns (auth.User) {
+    option (google.api.http) = {
+      post: "/v1/auth"
+      body: "*"
+    };
+  };
+}
